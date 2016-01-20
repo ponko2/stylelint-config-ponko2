@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ponko2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ponko2 shareable config for stylelint",
   "keywords": [
     "stylelint",
