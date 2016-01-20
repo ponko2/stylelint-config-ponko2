@@ -19,13 +19,13 @@ module.exports = {
     // Function
     "function-blacklist": null,
     "function-calc-no-unspaced-operator": true,
-    "function-comma-newline-after": null,
+    "function-comma-newline-after": "always-multi-line",
     "function-comma-newline-before": null,
-    "function-comma-space-after": "always",
+    "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-linear-gradient-no-nonstandard-direction": true,
-    "function-parentheses-newline-inside": null,
-    "function-parentheses-space-inside": "never",
+    "function-parentheses-newline-inside": "always-multi-line",
+    "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "none",
     "function-whitelist": null,
     "function-whitespace-after": "always",
@@ -63,20 +63,20 @@ module.exports = {
     "declaration-no-important": null,
 
     // Declaration block
-    "declaration-block-no-single-line": true,
-    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-no-single-line": null,
+    "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": null,
     "declaration-block-semicolon-space-after": "always-single-line",
     "declaration-block-semicolon-space-before": "never",
-    "declaration-block-single-line-max-declarations": null,
+    "declaration-block-single-line-max-declarations": 1,
 
     // Block
     "block-closing-brace-newline-after": "always",
-    "block-closing-brace-newline-before": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
     "block-closing-brace-space-after": null,
     "block-closing-brace-space-before": "always-single-line",
     "block-no-empty": true,
-    "block-opening-brace-newline-after": "always",
+    "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-newline-before": null,
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
@@ -92,7 +92,7 @@ module.exports = {
     "selector-no-type": null,
     "selector-no-universal": null,
     "selector-no-vendor-prefix": true,
-    "selector-pseudo-element-colon-notation": "single",
+    "selector-pseudo-element-colon-notation": "double",
     "selector-root-no-composition": true,
 
     // Selector list
@@ -105,7 +105,7 @@ module.exports = {
     "rule-nested-empty-line-before": [ "always", { except: ["first-nested"], ignore: ["after-comment"] } ],
     "rule-no-duplicate-properties": true,
     "rule-no-shorthand-property-overrides": true,
-    "rule-non-nested-empty-line-before": [ "always", { ignore: ["after-comment"] } ],
+    "rule-non-nested-empty-line-before": [ "always-multi-line", { ignore: ["after-comment"] } ],
     "rule-properties-order": null,
     "rule-trailing-semicolon": "always",
 
