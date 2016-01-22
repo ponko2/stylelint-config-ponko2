@@ -82,10 +82,10 @@ module.exports = {
     "block-opening-brace-space-before": "always",
 
     // Selector
-    "selector-class-pattern": "^(?:[a-z]+-)*[a-z]+(?:(?:--|__)(?:[a-z]+-)*[a-z]+)*$",
+    "selector-class-pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
-    "selector-id-pattern": "^(?:[a-z]+-)*[a-z]+(?:(?:--|__)(?:[a-z]+-)*[a-z]+)*$",
+    "selector-id-pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$",
     "selector-no-attribute": null,
     "selector-no-combinator": null,
     "selector-no-id": true,
@@ -115,7 +115,7 @@ module.exports = {
     // Media feature
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
-    "media-feature-name-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": null,
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
 
