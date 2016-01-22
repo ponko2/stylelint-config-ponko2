@@ -102,10 +102,15 @@ module.exports = {
     "selector-list-comma-space-before": "never",
 
     // Rule
-    "rule-nested-empty-line-before": [ "always", { except: ["first-nested"], ignore: ["after-comment"] } ],
+    "rule-nested-empty-line-before": [ "always", {
+      except: ["first-nested"],
+      ignore: ["after-comment"],
+    } ],
     "rule-no-duplicate-properties": true,
     "rule-no-shorthand-property-overrides": true,
-    "rule-non-nested-empty-line-before": [ "always-multi-line", { ignore: ["after-comment"] } ],
+    "rule-non-nested-empty-line-before": [ "always-multi-line", {
+      ignore: ["after-comment"],
+    } ],
     "rule-properties-order": null,
     "rule-trailing-semicolon": "always",
 
@@ -132,11 +137,17 @@ module.exports = {
     "media-query-list-comma-space-before": "never",
 
     // At rule
-    "at-rule-empty-line-before": [ "always", { except: [ "blockless-group", "first-nested" ], ignore: ["after-comment"] } ],
+    "at-rule-empty-line-before": [ "always", {
+      except: [ "blockless-group", "first-nested" ],
+      ignore: ["after-comment"],
+    } ],
     "at-rule-no-vendor-prefix": true,
 
     // Comment
-    "comment-empty-line-before": [ "always", { except: ["first-nested"], ignore: ["stylelint-commands"] } ],
+    "comment-empty-line-before": [ "always", {
+      except: ["first-nested"],
+      ignore: ["stylelint-commands"],
+    } ],
     "comment-whitespace-inside": "always",
 
     // General / Sheet
