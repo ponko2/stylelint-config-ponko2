@@ -32,7 +32,7 @@ module.exports = {
     'selector-no-id': true,
 
     // Disallow type selectors.
-    'selector-no-type': [true, {ignore: ['descendant', 'compounded']}],
+    'selector-no-type': null,
 
     // Disallow universal selectors.
     'selector-no-universal': null,
