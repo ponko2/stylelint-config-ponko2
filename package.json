@@ -14,7 +14,8 @@
   },
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "rules"
   ],
   "devDependencies": {
     "ava": "^0.10.0",
