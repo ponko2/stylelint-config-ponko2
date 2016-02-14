@@ -18,11 +18,11 @@
     "rules"
   ],
   "devDependencies": {
-    "ava": "^0.10.0",
+    "ava": "^0.11.0",
     "eslint": "^2.0.0",
     "eslint-config-ponko2": "^2.0.0",
     "eslint-config-stylelint": "^0.1.0",
-    "stylelint": "^4.0.0"
+    "stylelint": "^4.3.0"
   },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
