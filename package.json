@@ -3,11 +3,6 @@
   "description": "ponko2 shareable config for stylelint",
   "version": "0.2.0",
   "author": "Takahito Nakano",
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "devDependencies": {
     "ava": "^0.11.0",
     "eslint": "^2.0.0",
