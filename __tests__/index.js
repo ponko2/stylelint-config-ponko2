@@ -42,7 +42,7 @@ const validCss = (
 @media (min-orientation: portrait), projection and (color) {
   .selector-i + .selector-ii {
     background: color(rgb(0, 0, 0) lightness(50%));
-    font-family: helvetica, arial, sans-serif;
+    font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto;
   }
 }
 
@@ -78,8 +78,16 @@ const validCss = (
 `);
 
 const invalidCss = (
-`a {
-  top: 0.2em;
+`.foo {
+  margin: 10px;
+}
+
+.bar ul {
+  margin: 20px;
+}
+
+.foo {
+  margin: 30px;
 }
 `);
 
@@ -108,7 +116,11 @@ test('a warning with invalid css', t => {
     const {warnings} = results[0];
     t.ok(errored, 'errored');
     t.is(warnings.length, 1, 'flags one warning');
-    t.is(warnings[0].text, 'Unexpected leading zero (number-leading-zero)', 'correct warning text');
+    t.is(
+      warnings[0].text,
+      'Unexpected duplicate selector ".foo" (no-duplicate-selectors)',
+      'correct warning text'
+    );
   });
 
   return result;

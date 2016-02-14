@@ -3,9 +3,12 @@
 module.exports = {
   extends: [
     'stylelint-config-ponko2/rules/color',
+    'stylelint-config-ponko2/rules/font-family',
+    'stylelint-config-ponko2/rules/font-weight',
     'stylelint-config-ponko2/rules/function',
     'stylelint-config-ponko2/rules/number',
     'stylelint-config-ponko2/rules/string',
+    'stylelint-config-ponko2/rules/time',
     'stylelint-config-ponko2/rules/unit',
     'stylelint-config-ponko2/rules/value',
     'stylelint-config-ponko2/rules/value-list',

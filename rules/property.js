@@ -14,6 +14,12 @@ module.exports = {
     // Specify a whitelist of disallowed units for specific properties.
     'property-unit-whitelist': null,
 
+    // Specify a blacklist of disallowed property-value pairs.
+    'property-value-blacklist': null,
+
+    // Specify a whitelist of allowed property-value pairs.
+    'property-value-whitelist': null,
+
     // Specify a whitelist of allowed properties.
     'property-whitelist': null,
   }
