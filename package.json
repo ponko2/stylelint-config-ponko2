@@ -22,7 +22,7 @@
     "eslint": "^2.0.0",
     "eslint-config-ponko2": "^2.0.0",
     "eslint-config-stylelint": "^0.1.0",
-    "stylelint": "^4.3.0"
+    "stylelint": "^4.3.2"
   },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
