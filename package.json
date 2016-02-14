@@ -1,22 +1,13 @@
 {
   "name": "stylelint-config-ponko2",
-  "version": "0.2.0",
   "description": "ponko2 shareable config for stylelint",
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
+  "version": "0.2.0",
   "author": "Takahito Nakano",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ponko2/stylelint-config-ponko2.git"
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "rules"
-  ],
   "devDependencies": {
     "ava": "^0.11.0",
     "eslint": "^2.0.0",
@@ -24,14 +15,23 @@
     "eslint-config-stylelint": "^0.1.0",
     "stylelint": "^4.3.2"
   },
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ponko2/stylelint-config-ponko2.git"
+  },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
     "lint": "eslint . --ignore-path .gitignore",
     "test": "npm run lint && npm run ava"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
   }
 }
