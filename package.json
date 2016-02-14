@@ -25,7 +25,7 @@
     "url": "https://github.com/ponko2/stylelint-config-ponko2.git"
   },
   "scripts": {
-    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "ava": "ava --verbose test/**/*.js",
     "lint": "eslint . --ignore-path .gitignore",
     "test": "npm run lint && npm run ava"
   }
