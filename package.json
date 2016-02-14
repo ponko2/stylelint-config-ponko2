@@ -7,7 +7,6 @@
     "ava": "^0.11.0",
     "eslint": "^2.0.0",
     "eslint-config-ponko2": "^2.0.1",
-    "eslint-config-stylelint": "^0.1.0",
     "stylelint": "^4.3.3"
   },
   "files": [
@@ -25,8 +24,7 @@
     "url": "https://github.com/ponko2/stylelint-config-ponko2.git"
   },
   "scripts": {
-    "ava": "ava --verbose test/**/*.js",
-    "lint": "eslint . --ignore-path .gitignore",
-    "test": "npm run lint && npm run ava"
+    "lint": "eslint .",
+    "test": "ava --verbose test/**/*.js"
   }
 }
