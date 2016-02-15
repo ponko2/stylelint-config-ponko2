@@ -19,6 +19,10 @@ const validCss = (
   color: #333;
 }
 
+.selector-1 {
+  margin: 10px;
+}
+
 .selector-a,
 .selector-b {
   @extend .foo;
@@ -78,16 +82,8 @@ const validCss = (
 `);
 
 const invalidCss = (
-`.foo {
-  margin: 10px;
-}
-
-.bar ul {
-  margin: 20px;
-}
-
-.foo {
-  margin: 30px;
+`a {
+  top: 0.2em;
 }
 `);
 
@@ -116,11 +112,7 @@ test('a warning with invalid css', t => {
     const {warnings} = results[0];
     t.ok(errored, 'errored');
     t.is(warnings.length, 1, 'flags one warning');
-    t.is(
-      warnings[0].text,
-      'Unexpected duplicate selector ".foo" (no-duplicate-selectors)',
-      'correct warning text'
-    );
+    t.is(warnings[0].text, 'Unexpected leading zero (number-leading-zero)', 'correct warning text');
   });
 
   return result;

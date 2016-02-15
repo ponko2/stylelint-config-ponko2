@@ -12,7 +12,7 @@ module.exports = {
     'max-line-length': null,
 
     // Disallow duplicate selectors.
-    'no-duplicate-selectors': true,
+    'no-duplicate-selectors': null,
 
     // Disallow end-of-line whitespace.
     'no-eol-whitespace': true,
