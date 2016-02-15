@@ -19,6 +19,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^4.3.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ponko2/stylelint-config-ponko2.git"
