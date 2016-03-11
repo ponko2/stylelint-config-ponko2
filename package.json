@@ -5,8 +5,8 @@
   "author": "Takahito Nakano",
   "devDependencies": {
     "ava": "^0.13.0",
-    "eslint": "^2.2.0",
-    "eslint-config-ponko2": "^2.1.0",
+    "eslint": "^2.3.0",
+    "eslint-config-ponko2": "^2.2.0",
     "stylelint": "^5.0.0"
   },
   "files": [
