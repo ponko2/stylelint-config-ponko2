@@ -34,7 +34,7 @@ module.exports = {
     // Disallow type selectors.
     'selector-no-type': null,
 
-    // Disallow universal selectors.
+    // Disallow the universal selector.
     'selector-no-universal': null,
 
     // Disallow vendor prefixes for selectors.
@@ -43,7 +43,7 @@ module.exports = {
     // Specify single or double colon notation for applicable pseudo-elements.
     'selector-pseudo-element-colon-notation': 'double',
 
-    // Disallow the composition of:root selectors.
+    // Disallow the composition of :root in selectors.
     'selector-root-no-composition': true,
   }
 };

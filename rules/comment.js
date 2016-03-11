@@ -8,7 +8,7 @@ module.exports = {
       ignore: ['stylelint-commands'],
     }],
 
-    // Require a single space or disallow whitespace on the inside of comment markers.
+    // Require or disallow whitespace on the inside of comment markers.
     'comment-whitespace-inside': 'always',
   }
 };

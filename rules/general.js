@@ -5,7 +5,7 @@ module.exports = {
     // Specify indentation.
     'indentation': 2,
 
-    // Disallow more than a specified number of adjacent empty lines.
+    // Limit the number of adjacent empty lines.
     'max-empty-lines': 2,
 
     // Limit the length of a line.

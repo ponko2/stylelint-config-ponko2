@@ -32,10 +32,10 @@ module.exports = {
     // Specify single, double or no quotes for urls.
     'function-url-quotes': 'none',
 
-    // Specify a whitelist of only allowed functions.
+    // Specify a whitelist of allowed functions.
     'function-whitelist': null,
 
-    // Require a single space or disallow whitespace after functions.
+    // Require or disallow whitespace after functions.
     'function-whitespace-after': 'always',
   }
 };

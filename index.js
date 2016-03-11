@@ -17,7 +17,7 @@ module.exports = {
     'stylelint-config-ponko2/rules/declaration',
     'stylelint-config-ponko2/rules/declaration-block',
     'stylelint-config-ponko2/rules/block',
-    'stylelint-config-ponko2/rules/root-selector',
+    'stylelint-config-ponko2/rules/root-rule',
     'stylelint-config-ponko2/rules/selector',
     'stylelint-config-ponko2/rules/selector-list',
     'stylelint-config-ponko2/rules/rule',

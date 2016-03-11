@@ -8,7 +8,7 @@ module.exports = {
     // Limit the number of decimal places allowed in numbers.
     'number-max-precision': 10,
 
-    // Disallow trailing zeros within numbers.
+    // Disallow trailing zeros in numbers.
     'number-no-trailing-zeros': true,
 
     // Disallow units for zero lengths.

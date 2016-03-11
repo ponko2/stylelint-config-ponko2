@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    // Require consistent numeric or named font-weight values.
+    // Require numeric or named (where possible) font-weight values.
     'font-weight-notation': null,
   }
 };
