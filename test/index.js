@@ -90,7 +90,7 @@ const validCss = (
 `);
 
 const invalidCss = (
-`a {
+`.selector a {
   top: 0.2em;
 }
 `);
