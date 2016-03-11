@@ -3,11 +3,12 @@
 module.exports = {
   rules: {
     // Specify a pattern for class selectors.
-    'selector-class-pattern': (
+    'selector-class-pattern': [
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
       '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
-      '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$'
-    ),
+      '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
+      {resolveNestedSelectors: true},
+    ],
 
     // Require a single space or disallow whitespace after the combinators of selectors.
     'selector-combinator-space-after': 'always',
@@ -21,6 +22,9 @@ module.exports = {
       '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
       '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$'
     ),
+
+    // Limit the specificity of selectors.
+    'selector-max-specificity': null,
 
     // Disallow attribute selectors.
     'selector-no-attribute': null,

@@ -79,6 +79,14 @@ const validCss = (
   }
 }
 
+.block {
+  &__element {
+    &--modifier {
+      margin: 10px;
+    }
+  }
+}
+
 `);
 
 const invalidCss = (
