@@ -15,7 +15,7 @@ module.exports = {
     'max-nesting-depth': 6,
 
     // Disallow browser hacks that are irrelevant to the browsers you are targeting.
-    'no-browser-hacks': true,
+    'no-browser-hacks': false,
 
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     'no-descending-specificity': true,
