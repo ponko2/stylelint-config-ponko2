@@ -18,7 +18,7 @@ module.exports = {
     'no-browser-hacks': null,
 
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
-    'no-descending-specificity': true,
+    'no-descending-specificity': null,
 
     // Disallow duplicate selectors.
     'no-duplicate-selectors': null,
