@@ -102,8 +102,9 @@ test('no warnings with valid css', t => {
     syntax: 'scss'
   }).then(data => {
     const {errored, results} = data;
-    const {warnings} = results[0];
+    const {invalidOptionWarnings, warnings} = results[0];
     t.notOk(errored, 'no errored');
+    t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 0, 'flags no warnings');
   });
 
@@ -117,8 +118,9 @@ test('a warning with invalid css', t => {
     syntax: 'scss'
   }).then(data => {
     const {errored, results} = data;
-    const {warnings} = results[0];
+    const {invalidOptionWarnings, warnings} = results[0];
     t.ok(errored, 'errored');
+    t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 1, 'flags one warning');
     t.is(warnings[0].text, 'Unexpected leading zero (number-leading-zero)', 'correct warning text');
   });
