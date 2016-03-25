@@ -10,5 +10,8 @@ module.exports = {
 
     // Disallow vendor prefixes for at-rules.
     'at-rule-no-vendor-prefix': true,
+
+    // Require a newline after the semicolon of at-rules.
+    'at-rule-semicolon-newline-after': 'always',
   }
 };
