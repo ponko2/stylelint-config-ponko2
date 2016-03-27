@@ -21,7 +21,7 @@ module.exports = {
     'no-descending-specificity': null,
 
     // Disallow duplicate selectors.
-    'no-duplicate-selectors': null,
+    'no-duplicate-selectors': true,
 
     // Disallow end-of-line whitespace.
     'no-eol-whitespace': true,
