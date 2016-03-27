@@ -18,7 +18,7 @@ module.exports = {
     'no-browser-hacks': null,
 
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
-    'no-descending-specificity': null,
+    'no-descending-specificity': true,
 
     // Disallow duplicate selectors.
     'no-duplicate-selectors': true,
@@ -40,5 +40,8 @@ module.exports = {
 
     // Disallow features that are unsupported by the browsers that you are targeting.
     'no-unsupported-browser-features': null,
+
+    // Require a reason comment before or after stylelint-disable comments.
+    'stylelint-disable-reason': null,
   }
 };
