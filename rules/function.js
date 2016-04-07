@@ -23,11 +23,17 @@ module.exports = {
     // Disallow direction values in linear-gradient() calls that are not valid according to the standard syntax.
     'function-linear-gradient-no-nonstandard-direction': true,
 
+    // Limit the number of adjacent empty lines within functions.
+    'function-max-empty-lines': 0,
+
     // Require a newline or disallow whitespace on the inside of the parentheses of functions.
     'function-parentheses-newline-inside': 'always-multi-line',
 
     // Require a single space or disallow whitespace on the inside of the parentheses of functions.
     'function-parentheses-space-inside': 'never-single-line',
+
+    // Require or disallow data URIs for urls.
+    'function-url-data-uris': null,
 
     // Specify single, double or no quotes for urls.
     'function-url-quotes': 'none',
