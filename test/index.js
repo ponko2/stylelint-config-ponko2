@@ -2,7 +2,7 @@ import config    from '../';
 import stylelint from 'stylelint';
 import test      from 'ava';
 
-const validCss = (
+const validCss =
 `/**
  * Multi-line comment
  */
@@ -87,13 +87,13 @@ const validCss = (
   }
 }
 
-`);
+`;
 
-const invalidCss = (
+const invalidCss =
 `.selector a {
   top: 0.2em;
 }
-`);
+`;
 
 test('no warnings with valid css', t => {
   const result = stylelint.lint({

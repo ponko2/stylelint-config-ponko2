@@ -17,11 +17,10 @@ module.exports = {
     'selector-combinator-space-before': 'always',
 
     // Specify a pattern for id selectors.
-    'selector-id-pattern': (
+    'selector-id-pattern':
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
       '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
-      '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$'
-    ),
+      '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
 
     // Limit the specificity of selectors.
     'selector-max-specificity': null,
