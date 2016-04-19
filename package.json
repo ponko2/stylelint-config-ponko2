@@ -7,7 +7,7 @@
     "ava": "^0.14.0",
     "eslint": "^2.8.0",
     "eslint-config-ponko2": "^2.5.0",
-    "stylelint": "5.4.0"
+    "stylelint": "6.0.0"
   },
   "files": [
     "index.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": ">=4.5.0 <6.0.0"
+    "stylelint": "^6.0.0"
   },
   "repository": {
     "type": "git",
