@@ -8,6 +8,9 @@ module.exports = {
       ignore: ['after-comment'],
     }],
 
+    // Specify lowercase or uppercase for at-rules names.
+    'at-rule-name-case': 'lower',
+
     // Disallow vendor prefixes for at-rules.
     'at-rule-no-vendor-prefix': true,
 

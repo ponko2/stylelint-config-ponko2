@@ -2,6 +2,9 @@
 
 module.exports = {
   rules: {
+    // Specify lowercase or uppercase for keywords values.
+    'value-keyword-case': null,
+
     // Require a newline or disallow whitespace after the commas of value lists.
     'value-list-comma-newline-after': 'always-multi-line',
 

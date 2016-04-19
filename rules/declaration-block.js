@@ -3,7 +3,7 @@
 module.exports = {
   rules: {
     // Disallow duplicate properties within declaration blocks.
-    'declaration-block-no-duplicate-properties': true,
+    'declaration-block-no-duplicate-properties': [true, {ignore: ['consecutive-duplicates']}],
 
     // Disallow property values that are ignored due to another property value in the same rule.
     'declaration-block-no-ignored-properties': true,
