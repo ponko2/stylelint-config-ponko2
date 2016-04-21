@@ -95,35 +95,29 @@ const invalidCss =
 }
 `;
 
-test('no warnings with valid css', t => {
-  const result = stylelint.lint({
+test('no warnings with valid css', t =>
+  stylelint.lint({
     code: validCss,
     config,
     syntax: 'scss'
-  }).then(data => {
-    const {errored, results} = data;
+  }).then(({errored, results}) => {
     const {invalidOptionWarnings, warnings} = results[0];
     t.falsy(errored, 'no errored');
     t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 0, 'flags no warnings');
-  });
+  })
+);
 
-  return result;
-});
-
-test('a warning with invalid css', t => {
-  const result = stylelint.lint({
+test('a warning with invalid css', t =>
+  stylelint.lint({
     code: invalidCss,
     config,
     syntax: 'scss'
-  }).then(data => {
-    const {errored, results} = data;
+  }).then(({errored, results}) => {
     const {invalidOptionWarnings, warnings} = results[0];
     t.truthy(errored, 'errored');
     t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 1, 'flags one warning');
     t.is(warnings[0].text, 'Unexpected leading zero (number-leading-zero)', 'correct warning text');
-  });
-
-  return result;
-});
+  })
+);
