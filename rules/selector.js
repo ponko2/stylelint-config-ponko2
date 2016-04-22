@@ -2,6 +2,9 @@
 
 module.exports = {
   rules: {
+    // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
+    'selector-attribute-brackets-space-inside': 'never',
+
     // Specify a pattern for class selectors.
     'selector-class-pattern': [
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
@@ -45,6 +48,9 @@ module.exports = {
 
     // Specify lowercase or uppercase for pseudo-class selectors.
     'selector-pseudo-class-case': 'lower',
+
+    // Require a single space or disallow whitespace on the inside of the parentheses within pseudo-class selectors.
+    'selector-pseudo-class-parentheses-space-inside': 'never',
 
     // Specify lowercase or uppercase for pseudo-element selectors.
     'selector-pseudo-element-case': 'lower',
