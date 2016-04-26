@@ -37,6 +37,9 @@ module.exports = {
     // Disallow id selectors.
     'selector-no-id': true,
 
+    // Disallow qualifying a selector by type.
+    'selector-no-qualifying-type': true,
+
     // Disallow type selectors.
     'selector-no-type': null,
 
