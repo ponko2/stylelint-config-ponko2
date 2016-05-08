@@ -26,6 +26,9 @@ module.exports = {
     // Disallow end-of-line whitespace.
     'no-eol-whitespace': true,
 
+    // Disallow extra semicolons.
+    'no-extra-semicolons': true,
+
     // Disallow colors that are suspiciously close to being identical.
     'no-indistinguishable-colors': null,
 
