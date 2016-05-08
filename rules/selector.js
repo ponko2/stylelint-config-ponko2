@@ -5,6 +5,12 @@ module.exports = {
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
     'selector-attribute-brackets-space-inside': 'never',
 
+    // Require a single space or disallow whitespace after operators within attribute selectors.
+    'selector-attribute-operator-space-after': 'never',
+
+    // Require a single space or disallow whitespace before operators within attribute selectors.
+    'selector-attribute-operator-space-before': 'never',
+
     // Specify a pattern for class selectors.
     'selector-class-pattern': [
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
@@ -61,10 +67,16 @@ module.exports = {
     // Specify single or double colon notation for applicable pseudo-elements.
     'selector-pseudo-element-colon-notation': 'double',
 
+    // Disallow unknown pseudo-element selectors.
+    'selector-pseudo-element-no-unknown': true,
+
     // Disallow the composition of :root in selectors.
     'selector-root-no-composition': true,
 
     // Specify lowercase or uppercase for type selector.
     'selector-type-case': 'lower',
+
+    // Limit the number of adjacent empty lines within selectors.
+    'selector-max-empty-lines': 0,
   }
 };

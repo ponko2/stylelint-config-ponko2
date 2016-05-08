@@ -11,6 +11,9 @@ module.exports = {
     // Specify lowercase or uppercase for at-rules names.
     'at-rule-name-case': 'lower',
 
+    // Require a single space after at-rule names.
+    'at-rule-name-space-after': 'always-single-line',
+
     // Disallow vendor prefixes for at-rules.
     'at-rule-no-vendor-prefix': true,
 
