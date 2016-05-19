@@ -15,6 +15,7 @@ module.exports = {
     'stylelint-config-ponko2/rules/custom-property',
     'stylelint-config-ponko2/rules/shorthand-property',
     'stylelint-config-ponko2/rules/property',
+    'stylelint-config-ponko2/rules/keyframe-declaration',
     'stylelint-config-ponko2/rules/declaration',
     'stylelint-config-ponko2/rules/declaration-block',
     'stylelint-config-ponko2/rules/block',

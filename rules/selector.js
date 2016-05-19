@@ -5,11 +5,17 @@ module.exports = {
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
     'selector-attribute-brackets-space-inside': 'never',
 
+    // Specify a blacklist of disallowed attribute operators.
+    'selector-attribute-operator-blacklist': null,
+
     // Require a single space or disallow whitespace after operators within attribute selectors.
     'selector-attribute-operator-space-after': 'never',
 
     // Require a single space or disallow whitespace before operators within attribute selectors.
     'selector-attribute-operator-space-before': 'never',
+
+    // Specify a whitelist of allowed attribute operators.
+    'selector-attribute-operator-whitelist': null,
 
     // Specify a pattern for class selectors.
     'selector-class-pattern': [
@@ -58,6 +64,9 @@ module.exports = {
     // Specify lowercase or uppercase for pseudo-class selectors.
     'selector-pseudo-class-case': 'lower',
 
+    // Disallow unknown pseudo-class selectors.
+    'selector-pseudo-class-no-unknown': true,
+
     // Require a single space or disallow whitespace on the inside of the parentheses within pseudo-class selectors.
     'selector-pseudo-class-parentheses-space-inside': 'never',
 
@@ -75,6 +84,9 @@ module.exports = {
 
     // Specify lowercase or uppercase for type selector.
     'selector-type-case': 'lower',
+
+    // Disallow unknown type selectors.
+    'selector-type-no-unknown': null,
 
     // Limit the number of adjacent empty lines within selectors.
     'selector-max-empty-lines': 0,
