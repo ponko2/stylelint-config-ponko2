@@ -28,6 +28,7 @@ module.exports = {
     'stylelint-config-ponko2/rules/media-query',
     'stylelint-config-ponko2/rules/media-query-list',
     'stylelint-config-ponko2/rules/at-rule',
+    'stylelint-config-ponko2/rules/stylelint-disable-comment',
     'stylelint-config-ponko2/rules/comment',
     'stylelint-config-ponko2/rules/general',
   ].map(require.resolve),
