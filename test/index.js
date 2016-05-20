@@ -26,7 +26,7 @@ const validCss =
 .selector-a,
 .selector-b {
   @extend .foo;
-  padding: 10px !important;
+  padding: 10px;
   top: calc(calc(1em * 2) / 3);
 }
 

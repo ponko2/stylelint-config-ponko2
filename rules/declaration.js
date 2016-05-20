@@ -18,6 +18,6 @@ module.exports = {
     'declaration-colon-space-before': 'never',
 
     // Disallow !important within declarations.
-    'declaration-no-important': null,
+    'declaration-no-important': [true, {severity: 'warning'}],
   }
 };

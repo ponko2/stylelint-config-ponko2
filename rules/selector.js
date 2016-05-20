@@ -41,7 +41,7 @@ module.exports = {
     'selector-max-compound-selectors': [6, {severity: 'warning'}],
 
     // Limit the specificity of selectors.
-    'selector-max-specificity': null,
+    'selector-max-specificity': ['0,4,1', {severity: 'warning'}],
 
     // Disallow attribute selectors.
     'selector-no-attribute': null,
@@ -59,7 +59,7 @@ module.exports = {
     'selector-no-type': null,
 
     // Disallow the universal selector.
-    'selector-no-universal': null,
+    'selector-no-universal': [true, {severity: 'warning'}],
 
     // Disallow vendor prefixes for selectors.
     'selector-no-vendor-prefix': true,
