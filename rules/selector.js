@@ -37,6 +37,9 @@ module.exports = {
       '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
       '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
 
+    // Limit the number of compound selectors in a selector.
+    'selector-max-compound-selectors': 6,
+
     // Limit the specificity of selectors.
     'selector-max-specificity': null,
 
@@ -86,7 +89,7 @@ module.exports = {
     'selector-type-case': 'lower',
 
     // Disallow unknown type selectors.
-    'selector-type-no-unknown': null,
+    'selector-type-no-unknown': true,
 
     // Limit the number of adjacent empty lines within selectors.
     'selector-max-empty-lines': 0,
