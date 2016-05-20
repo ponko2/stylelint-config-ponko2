@@ -12,7 +12,7 @@ module.exports = {
     'max-line-length': null,
 
     // Limit the depth of nesting.
-    'max-nesting-depth': 6,
+    'max-nesting-depth': [6, {severity: 'warning'}],
 
     // Disallow browser hacks that are irrelevant to the browsers you are targeting.
     'no-browser-hacks': null,

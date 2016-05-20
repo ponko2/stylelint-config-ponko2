@@ -38,7 +38,7 @@ module.exports = {
       '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
 
     // Limit the number of compound selectors in a selector.
-    'selector-max-compound-selectors': 6,
+    'selector-max-compound-selectors': [6, {severity: 'warning'}],
 
     // Limit the specificity of selectors.
     'selector-max-specificity': null,
@@ -50,7 +50,7 @@ module.exports = {
     'selector-no-combinator': null,
 
     // Disallow id selectors.
-    'selector-no-id': true,
+    'selector-no-id': [true, {severity: 'warning'}],
 
     // Disallow qualifying a selector by type.
     'selector-no-qualifying-type': true,
