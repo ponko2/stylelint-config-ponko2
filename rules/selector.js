@@ -37,6 +37,9 @@ module.exports = {
       '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
       '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
 
+    // Limit the number of compound selectors in a selector.
+    'selector-max-compound-selectors': 6,
+
     // Limit the specificity of selectors.
     'selector-max-specificity': null,
 
