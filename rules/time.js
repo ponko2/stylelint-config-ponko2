@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    // Disallow animation and transition times under 100ms.
+    // Disallow animation and transition less than or equal to 100ms.
     'time-no-imperceptible': true,
   }
 };
