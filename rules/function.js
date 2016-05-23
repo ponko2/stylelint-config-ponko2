@@ -38,8 +38,8 @@ module.exports = {
     // Require or disallow data URIs for urls.
     'function-url-data-uris': null,
 
-    // Specify single, double or no quotes for urls.
-    'function-url-quotes': 'none',
+    // Require or disallow quotes for urls.
+    'function-url-quotes': 'never',
 
     // Specify a whitelist of allowed functions.
     'function-whitelist': null,
