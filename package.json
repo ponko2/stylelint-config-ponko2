@@ -5,9 +5,9 @@
   "author": "Takahito Nakano",
   "devDependencies": {
     "ava": "^0.14.0",
-    "eslint": "^2.8.0",
-    "eslint-config-ponko2": "^3.0.0",
-    "stylelint": "~6.5.0"
+    "eslint": "^2.10.2",
+    "eslint-config-ponko2": "^3.3.1",
+    "stylelint": "~6.5.1"
   },
   "files": [
     "index.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^6.5.0"
+    "stylelint": "^6.5.1"
   },
   "repository": {
     "type": "git",
