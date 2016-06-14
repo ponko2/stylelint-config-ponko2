@@ -7,7 +7,7 @@
     "ava": "^0.15.0",
     "eslint": "^2.10.2",
     "eslint-config-ponko2": "^3.3.1",
-    "stylelint": "~6.5.1"
+    "stylelint": "~6.6.0"
   },
   "files": [
     "index.js",
