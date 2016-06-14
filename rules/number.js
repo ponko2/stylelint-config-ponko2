@@ -10,8 +10,5 @@ module.exports = {
 
     // Disallow trailing zeros in numbers.
     'number-no-trailing-zeros': true,
-
-    // Disallow units for zero lengths.
-    'number-zero-length-no-unit': true,
   }
 };
