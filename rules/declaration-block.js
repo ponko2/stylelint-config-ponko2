@@ -18,7 +18,7 @@ module.exports = {
     'declaration-block-semicolon-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the semicolons of declaration blocks.
-    'declaration-block-semicolon-newline-before': null,
+    'declaration-block-semicolon-newline-before': 'never-multi-line',
 
     // Require a single space or disallow whitespace after the semicolons of declaration blocks.
     'declaration-block-semicolon-space-after': 'always-single-line',
