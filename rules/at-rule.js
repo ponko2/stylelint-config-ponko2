@@ -2,6 +2,9 @@
 
 module.exports = {
   rules: {
+    // Specify a blacklist of disallowed at-rules.
+    'at-rule-blacklist': null,
+
     // Require or disallow an empty line before at-rules.
     'at-rule-empty-line-before': ['always', {
       except: ['blockless-group', 'first-nested'],
@@ -11,6 +14,9 @@ module.exports = {
     // Specify lowercase or uppercase for at-rules names.
     'at-rule-name-case': 'lower',
 
+    // Require a newline after at-rule names.
+    'at-rule-name-newline-after': null,
+
     // Require a single space after at-rule names.
     'at-rule-name-space-after': 'always-single-line',
 
@@ -19,5 +25,8 @@ module.exports = {
 
     // Require a newline after the semicolon of at-rules.
     'at-rule-semicolon-newline-after': 'always',
+
+    // Specify a whitelist of allowed at-rules.
+    'at-rule-whitelist': null,
   }
 };
