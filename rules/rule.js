@@ -9,8 +9,6 @@ module.exports = {
     }],
 
     // Require or disallow an empty line before non-nested rules.
-    'rule-non-nested-empty-line-before': ['always-multi-line', {
-      ignore: ['after-comment'],
-    }],
+    'rule-non-nested-empty-line-before': ['always-multi-line', {ignore: ['after-comment']}],
   }
 };
