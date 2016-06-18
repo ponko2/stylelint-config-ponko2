@@ -4,9 +4,9 @@
   "version": "3.1.0",
   "author": "Takahito Nakano",
   "devDependencies": {
-    "ava": "^0.15.0",
-    "eslint": "^2.10.2",
-    "eslint-config-ponko2": "^3.3.1",
+    "ava": "^0.15.2",
+    "eslint": "^2.13.0",
+    "eslint-config-ponko2": "^3.6.0",
     "stylelint": "~6.6.0"
   },
   "files": [
