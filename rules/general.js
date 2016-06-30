@@ -23,6 +23,9 @@ module.exports = {
     // Disallow duplicate selectors.
     'no-duplicate-selectors': true,
 
+    // Disallow empty sources.
+    'no-empty-source': true,
+
     // Disallow end-of-line whitespace.
     'no-eol-whitespace': true,
 
