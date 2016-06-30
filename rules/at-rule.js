@@ -20,6 +20,9 @@ module.exports = {
     // Require a single space after at-rule names.
     'at-rule-name-space-after': 'always-single-line',
 
+    // Disallow unknown at-rules.
+    'at-rule-no-unknown': null,
+
     // Disallow vendor prefixes for at-rules.
     'at-rule-no-vendor-prefix': true,
 
