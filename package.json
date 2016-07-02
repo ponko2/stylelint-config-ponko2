@@ -6,7 +6,7 @@
   "devDependencies": {
     "ava": "^0.15.2",
     "eslint": "^2.13.0",
-    "eslint-config-ponko2": "^3.6.0",
+    "eslint-config-ponko2": "^4.0.0",
     "stylelint": "~6.8.0"
   },
   "files": [
