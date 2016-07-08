@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^6.8.0"
+    "stylelint": "^6.9.0"
   },
   "repository": {
     "type": "git",
