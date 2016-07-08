@@ -17,6 +17,9 @@ module.exports = {
     // Specify a whitelist of allowed attribute operators.
     'selector-attribute-operator-whitelist': null,
 
+    // Require or disallow quotes for attribute values.
+    'selector-attribute-quotes': 'always',
+
     // Specify a pattern for class selectors.
     'selector-class-pattern': [
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
