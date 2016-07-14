@@ -3,7 +3,7 @@
 module.exports = {
   rules: {
     // Specify indentation.
-    'indentation': [2, {indentInsideParens: 'once'}],
+    'indentation': 2,
 
     // Limit the number of adjacent empty lines.
     'max-empty-lines': 2,
