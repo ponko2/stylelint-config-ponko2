@@ -14,6 +14,9 @@ module.exports = {
     // Disallow missing punctuation for non-boolean media features.
     'media-feature-no-missing-punctuation': true,
 
+    // Require a single space or disallow whitespace on the inside of the parentheses within media features.
+    'media-feature-parentheses-space-inside': 'never',
+
     // Require a single space or disallow whitespace after the range operator in media features.
     'media-feature-range-operator-space-after': 'always',
 
