@@ -8,6 +8,9 @@ module.exports = {
     // Specify lowercase or uppercase for properties.
     'property-case': 'lower',
 
+    // Disallow unknown properties.
+    'property-no-unknown': true,
+
     // Disallow vendor prefixes for properties.
     'property-no-vendor-prefix': true,
 
