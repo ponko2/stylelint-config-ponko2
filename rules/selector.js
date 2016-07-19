@@ -59,7 +59,7 @@ module.exports = {
     'selector-no-qualifying-type': true,
 
     // Disallow type selectors.
-    'selector-no-type': null,
+    'selector-no-type': [true, {severity: 'warning', ignore: ['descendant']}],
 
     // Disallow the universal selector.
     'selector-no-universal': [true, {severity: 'warning'}],
