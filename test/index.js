@@ -87,6 +87,16 @@ const validCss =
   }
 }
 
+.foo {
+  ul {
+    margin: 10px;
+
+    .active {
+      color: #f00;
+    }
+  }
+}
+
 `;
 
 const invalidCss =
