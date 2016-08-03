@@ -3,7 +3,7 @@
 module.exports = {
   rules: {
     // Require or disallow an empty line before nested rules.
-    'rule-nested-empty-line-before': ['always', {
+    'rule-nested-empty-line-before': ['always-multi-line', {
       except: ['first-nested'],
       ignore: ['after-comment'],
     }],
