@@ -8,6 +8,9 @@ module.exports = {
     // Require a single space or disallow whitespace before the colon in media features.
     'media-feature-colon-space-before': 'never',
 
+    // Specify lowercase or uppercase for media feature names.
+    'media-feature-name-case': 'lower',
+
     // Disallow vendor prefixes for media feature names.
     'media-feature-name-no-vendor-prefix': null,
 

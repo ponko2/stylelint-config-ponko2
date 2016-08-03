@@ -17,6 +17,12 @@ module.exports = {
     // Require a single space or disallow whitespace before the colon of declarations.
     'declaration-colon-space-before': 'never',
 
+    // Require or disallow an empty line before declarations.
+    'declaration-empty-line-before': ['always', {
+      except: ['after-declaration', 'first-nested'],
+      ignore: ['after-comment', 'inside-single-line-block'],
+    }],
+
     // Disallow !important within declarations.
     'declaration-no-important': [true, {severity: 'warning'}],
 

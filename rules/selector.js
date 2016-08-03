@@ -46,6 +46,9 @@ module.exports = {
     // Limit the specificity of selectors.
     'selector-max-specificity': ['0,4,1', {severity: 'warning'}],
 
+    // Specify a pattern for the selectors of rules nested within rules.
+    'selector-nested-pattern': null,
+
     // Disallow attribute selectors.
     'selector-no-attribute': null,
 
@@ -67,6 +70,9 @@ module.exports = {
     // Disallow vendor prefixes for selectors.
     'selector-no-vendor-prefix': true,
 
+    // Specify a blacklist of disallowed pseudo-class selectors.
+    'selector-pseudo-class-blacklist': null,
+
     // Specify lowercase or uppercase for pseudo-class selectors.
     'selector-pseudo-class-case': 'lower',
 
@@ -75,6 +81,9 @@ module.exports = {
 
     // Require a single space or disallow whitespace on the inside of the parentheses within pseudo-class selectors.
     'selector-pseudo-class-parentheses-space-inside': 'never',
+
+    // Specify a whitelist of allowed pseudo-class selectors.
+    'selector-pseudo-class-whitelist': null,
 
     // Specify lowercase or uppercase for pseudo-element selectors.
     'selector-pseudo-element-case': 'lower',
