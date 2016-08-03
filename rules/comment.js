@@ -8,6 +8,9 @@ module.exports = {
       ignore: ['stylelint-commands'],
     }],
 
+    // Disallow empty comments.
+    'comment-no-empty': true,
+
     // Require or disallow whitespace on the inside of comment markers.
     'comment-whitespace-inside': 'always',
 
