@@ -7,7 +7,7 @@ module.exports = {
 
     // Require or disallow an empty line before at-rules.
     'at-rule-empty-line-before': ['always', {
-      except: ['blockless-group', 'first-nested'],
+      except: ['blockless-after-same-name-blockless', 'first-nested'],
       ignore: ['after-comment'],
     }],
 
