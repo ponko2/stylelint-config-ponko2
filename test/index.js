@@ -44,7 +44,7 @@ const validCss =
   }
 }
 
-@media (min-orientation: portrait), projection and (color) {
+@media (orientation: portrait), projection and (color) {
   .selector-i + .selector-ii {
     background: color(rgb(0, 0, 0) lightness(50%));
     font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto;
@@ -53,7 +53,11 @@ const validCss =
 
 
 /* Flush single line comment */
-@media screen and (min-device-pixel-ratio: 2),
+@media screen and
+  (-webkit-min-device-pixel-ratio: 2),
+  (-moz-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi)
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .selector {

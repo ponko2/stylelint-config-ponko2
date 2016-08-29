@@ -34,6 +34,9 @@ module.exports = {
     // Require a single space or disallow whitespace before the combinators of selectors.
     'selector-combinator-space-before': 'always',
 
+    // Disallow non-space characters for descendant combinators of selectors.
+    'selector-descendant-combinator-no-non-space': true,
+
     // Specify a pattern for id selectors.
     'selector-id-pattern':
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +

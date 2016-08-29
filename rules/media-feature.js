@@ -11,6 +11,9 @@ module.exports = {
     // Specify lowercase or uppercase for media feature names.
     'media-feature-name-case': 'lower',
 
+    // Disallow unknown media feature names.
+    'media-feature-name-no-unknown': true,
+
     // Disallow vendor prefixes for media feature names.
     'media-feature-name-no-vendor-prefix': null,
 

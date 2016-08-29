@@ -44,6 +44,9 @@ module.exports = {
     // Require or disallow quotes for urls.
     'function-url-quotes': 'never',
 
+    // Specify a whitelist of allowed url schemes.
+    'function-url-scheme-whitelist': null,
+
     // Specify a whitelist of allowed functions.
     'function-whitelist': null,
 
