@@ -13,5 +13,8 @@ module.exports = {
 
     // Require a single space or disallow whitespace before the commas of value lists.
     'value-list-comma-space-before': 'never',
+
+    // Limit the number of adjacent empty lines within value lists.
+    'value-list-max-empty-lines': 0,
   }
 };

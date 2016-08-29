@@ -1,14 +1,14 @@
 {
   "name": "stylelint-config-ponko2",
   "description": "ponko2 shareable config for stylelint",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "author": "Takahito Nakano",
   "devDependencies": {
     "ava": "^0.16.0",
     "eslint": "^3.3.0",
     "eslint-config-ponko2": "^5.0.0",
     "eslint-plugin-ava": "^3.0.0",
-    "stylelint": "7.1.0"
+    "stylelint": "7.2.0"
   },
   "files": [
     "index.js",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.1.0"
+    "stylelint": "^7.2.0"
   },
   "repository": {
     "type": "git",
