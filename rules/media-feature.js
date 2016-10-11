@@ -8,6 +8,9 @@ module.exports = {
     // Require a single space or disallow whitespace before the colon in media features.
     'media-feature-colon-space-before': 'never',
 
+    // Specify a blacklist of disallowed media feature names.
+    'media-feature-name-blacklist': null,
+
     // Specify lowercase or uppercase for media feature names.
     'media-feature-name-case': 'lower',
 
@@ -16,6 +19,9 @@ module.exports = {
 
     // Disallow vendor prefixes for media feature names.
     'media-feature-name-no-vendor-prefix': null,
+
+    // Specify a whitelist of allowed media feature names.
+    'media-feature-name-whitelist': null,
 
     // Disallow missing punctuation for non-boolean media features.
     'media-feature-no-missing-punctuation': true,
