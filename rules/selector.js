@@ -58,6 +58,9 @@ module.exports = {
     // Disallow combinators in selectors.
     'selector-no-combinator': null,
 
+    // Disallow empty selectors.
+    'selector-no-empty': true,
+
     // Disallow id selectors.
     'selector-no-id': [true, {severity: 'warning'}],
 
