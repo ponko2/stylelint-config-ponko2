@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-ponko2",
   "description": "ponko2 shareable config for stylelint",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "author": "Takahito Nakano",
   "devDependencies": {
     "ava": "^0.16.0",
