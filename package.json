@@ -7,7 +7,7 @@
     "ava": "^0.17.0",
     "eslint": "^3.8.1",
     "eslint-config-ponko2": "^10.0.0",
-    "eslint-plugin-ava": "^3.1.1",
+    "eslint-plugin-ava": "^4.0.1",
     "stylelint": "7.7.1"
   },
   "files": [
