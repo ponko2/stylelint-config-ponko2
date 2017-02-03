@@ -38,7 +38,7 @@ module.exports = {
     // Disallow missing end-of-source newlines.
     'no-missing-end-of-source-newline': true,
 
-    // Disallow animation names that do not correspond to a @keyframes declaration.
+    // Disallow unknown animations.
     'no-unknown-animations': true,
   }
 };
