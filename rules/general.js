@@ -17,9 +17,6 @@ module.exports = {
       ignore: ['blockless-at-rules'],
     }],
 
-    // Disallow browser hacks that are irrelevant to the browsers you are targeting.
-    'no-browser-hacks': null,
-
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     'no-descending-specificity': true,
 
@@ -35,9 +32,6 @@ module.exports = {
     // Disallow extra semicolons.
     'no-extra-semicolons': true,
 
-    // Disallow colors that are suspiciously close to being identical.
-    'no-indistinguishable-colors': null,
-
     // Disallow double-slash comments (//...) which are not supported by CSS.
     'no-invalid-double-slash-comments': true,
 
@@ -46,8 +40,5 @@ module.exports = {
 
     // Disallow animation names that do not correspond to a @keyframes declaration.
     'no-unknown-animations': true,
-
-    // Disallow features that are unsupported by the browsers that you are targeting.
-    'no-unsupported-browser-features': null,
   }
 };

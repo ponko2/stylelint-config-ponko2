@@ -8,9 +8,6 @@ module.exports = {
       ignore: ['after-comment', 'inside-single-line-block'],
     }],
 
-    // Disallow custom properties outside of :root rules.
-    'custom-property-no-outside-root': true,
-
     // Specify a pattern for custom properties.
     'custom-property-pattern': null,
   }

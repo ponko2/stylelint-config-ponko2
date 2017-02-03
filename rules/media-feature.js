@@ -23,9 +23,6 @@ module.exports = {
     // Specify a whitelist of allowed media feature names.
     'media-feature-name-whitelist': null,
 
-    // Disallow missing punctuation for non-boolean media features.
-    'media-feature-no-missing-punctuation': true,
-
     // Require a single space or disallow whitespace on the inside of the parentheses within media features.
     'media-feature-parentheses-space-inside': 'never',
 
