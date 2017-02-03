@@ -20,9 +20,6 @@ module.exports = {
     // Disallow empty blocks.
     'block-no-empty': true,
 
-    // Disallow single-line blocks.
-    'block-no-single-line': null,
-
     // Require a newline after the opening brace of blocks.
     'block-opening-brace-newline-after': 'always-multi-line',
 

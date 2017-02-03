@@ -58,9 +58,6 @@ module.exports = {
     // Disallow combinators in selectors.
     'selector-no-combinator': null,
 
-    // Disallow empty selectors.
-    'selector-no-empty': true,
-
     // Disallow id selectors.
     'selector-no-id': [true, {severity: 'warning'}],
 
@@ -99,9 +96,6 @@ module.exports = {
 
     // Disallow unknown pseudo-element selectors.
     'selector-pseudo-element-no-unknown': true,
-
-    // Disallow the composition of :root in selectors.
-    'selector-root-no-composition': true,
 
     // Specify lowercase or uppercase for type selector.
     'selector-type-case': 'lower',

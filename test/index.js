@@ -23,6 +23,9 @@ const validCss =
   margin: 10px;
 }
 
+/* comment */
+
+/* comment */
 .selector-a,
 .selector-b {
   @extend .foo;
@@ -31,6 +34,8 @@ const validCss =
   top: calc(calc(1em * 2) / 3);
 }
 
+/* comment */
+/* comment */
 .selector-x { width: 10%; }
 .selector-y { width: 20%; }
 .selector-z { width: 30%; }
@@ -116,8 +121,9 @@ test('no warnings with valid css', t =>
     config,
     syntax: 'scss'
   }).then(({errored, results}) => {
-    const {invalidOptionWarnings, warnings} = results[0];
+    const {deprecations, invalidOptionWarnings, warnings} = results[0];
     t.falsy(errored, 'no errored');
+    t.is(deprecations.length, 0, 'no deprecations');
     t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 0, 'flags no warnings');
   })
@@ -129,8 +135,9 @@ test('a warning with invalid css', t =>
     config,
     syntax: 'scss'
   }).then(({errored, results}) => {
-    const {invalidOptionWarnings, warnings} = results[0];
+    const {deprecations, invalidOptionWarnings, warnings} = results[0];
     t.truthy(errored, 'errored');
+    t.is(deprecations.length, 0, 'no deprecations');
     t.is(invalidOptionWarnings.length, 0, 'no invalid option warnings');
     t.is(warnings.length, 1, 'flags one warning');
     t.is(warnings[0].text, 'Unexpected leading zero (number-leading-zero)', 'correct warning text');

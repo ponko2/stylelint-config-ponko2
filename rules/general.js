@@ -12,10 +12,10 @@ module.exports = {
     'max-line-length': null,
 
     // Limit the depth of nesting.
-    'max-nesting-depth': [6, {severity: 'warning'}],
-
-    // Disallow browser hacks that are irrelevant to the browsers you are targeting.
-    'no-browser-hacks': null,
+    'max-nesting-depth': [6, {
+      severity: 'warning',
+      ignore: ['blockless-at-rules'],
+    }],
 
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     'no-descending-specificity': true,
@@ -32,19 +32,13 @@ module.exports = {
     // Disallow extra semicolons.
     'no-extra-semicolons': true,
 
-    // Disallow colors that are suspiciously close to being identical.
-    'no-indistinguishable-colors': null,
-
     // Disallow double-slash comments (//...) which are not supported by CSS.
     'no-invalid-double-slash-comments': true,
 
     // Disallow missing end-of-source newlines.
     'no-missing-end-of-source-newline': true,
 
-    // Disallow animation names that do not correspond to a @keyframes declaration.
+    // Disallow unknown animations.
     'no-unknown-animations': true,
-
-    // Disallow features that are unsupported by the browsers that you are targeting.
-    'no-unsupported-browser-features': null,
   }
 };
