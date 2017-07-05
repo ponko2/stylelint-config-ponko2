@@ -12,10 +12,12 @@ module.exports = {
     'max-line-length': null,
 
     // Limit the depth of nesting.
-    'max-nesting-depth': [6, {
-      severity: 'warning',
-      ignore: ['blockless-at-rules'],
-    }],
+    'max-nesting-depth': [
+      6, {
+        severity: 'warning',
+        ignore: ['blockless-at-rules'],
+      }
+    ],
 
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
     'no-descending-specificity': true,
