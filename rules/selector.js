@@ -103,6 +103,9 @@ module.exports = {
     // Disallow unknown type selectors.
     'selector-type-no-unknown': true,
 
+    // Limit the number of classes in a selector.
+    'selector-max-class': null,
+
     // Limit the number of adjacent empty lines within selectors.
     'selector-max-empty-lines': 0,
   }
