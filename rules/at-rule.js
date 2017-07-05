@@ -31,6 +31,9 @@ module.exports = {
     // Require a newline after the semicolon of at-rules.
     'at-rule-semicolon-newline-after': 'always',
 
+    // Require a single space or disallow whitespace before the semicolons of at rules.
+    'at-rule-semicolon-space-before': 'never',
+
     // Specify a whitelist of allowed at-rules.
     'at-rule-whitelist': null,
   }
