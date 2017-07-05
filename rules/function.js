@@ -35,9 +35,6 @@ module.exports = {
     // Require a single space or disallow whitespace on the inside of the parentheses of functions.
     'function-parentheses-space-inside': 'never-single-line',
 
-    // Require or disallow data URIs for urls.
-    'function-url-data-uris': null,
-
     // Disallow scheme-relative urls.
     'function-url-no-scheme-relative': null,
 

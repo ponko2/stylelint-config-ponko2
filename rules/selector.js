@@ -73,23 +73,8 @@ module.exports = {
     // Specify a pattern for the selectors of rules nested within rules.
     'selector-nested-pattern': null,
 
-    // Disallow attribute selectors.
-    'selector-no-attribute': null,
-
-    // Disallow combinators in selectors.
-    'selector-no-combinator': null,
-
-    // Disallow id selectors.
-    'selector-no-id': [true, {severity: 'warning'}],
-
     // Disallow qualifying a selector by type.
     'selector-no-qualifying-type': true,
-
-    // Disallow type selectors.
-    'selector-no-type': [true, {severity: 'warning', ignore: ['descendant']}],
-
-    // Disallow the universal selector.
-    'selector-no-universal': [true, {severity: 'warning'}],
 
     // Disallow vendor prefixes for selectors.
     'selector-no-vendor-prefix': true,
