@@ -6,7 +6,7 @@ module.exports = {
     'indentation': 2,
 
     // Limit the number of adjacent empty lines.
-    'max-empty-lines': 2,
+    'max-empty-lines': [2, {ignore: ['comments']}],
 
     // Limit the length of a line.
     'max-line-length': null,
