@@ -4,7 +4,7 @@
   "version": "9.0.0",
   "author": "Takahito Nakano",
   "devDependencies": {
-    "ava": "^0.19.0",
+    "ava": "^0.20.0",
     "eslint": "^3.8.1",
     "eslint-config-ponko2": "^10.0.0",
     "eslint-plugin-ava": "^4.0.1",
