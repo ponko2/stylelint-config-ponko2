@@ -3,8 +3,8 @@ import config    from '../';
 import stylelint from 'stylelint';
 import test      from 'ava';
 
-const validScss = fs.readFileSync('./test/valid.scss', 'utf-8');
-const invalidScss = fs.readFileSync('./test/invalid.scss', 'utf-8');
+const validScss = fs.readFileSync('./__tests__/valid.scss', 'utf-8');
+const invalidScss = fs.readFileSync('./__tests__/invalid.scss', 'utf-8');
 
 test('no warnings with valid css', t =>
   stylelint.lint({
