@@ -15,6 +15,6 @@ module.exports = {
     'color-no-hex': null,
 
     // Disallow invalid hex colors.
-    'color-no-invalid-hex': true,
+    'color-no-invalid-hex': true
   }
 };

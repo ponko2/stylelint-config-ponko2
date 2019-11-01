@@ -28,7 +28,7 @@ module.exports = {
     './rules/media-query-list',
     './rules/at-rule',
     './rules/comment',
-    './rules/general',
+    './rules/general'
   ].map(require.resolve),
   rules: {}
 };

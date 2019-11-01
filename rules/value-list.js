@@ -15,6 +15,6 @@ module.exports = {
     'value-list-comma-space-before': 'never',
 
     // Limit the number of adjacent empty lines within value lists.
-    'value-list-max-empty-lines': 0,
+    'value-list-max-empty-lines': 0
   }
 };

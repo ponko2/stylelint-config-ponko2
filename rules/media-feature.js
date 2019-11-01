@@ -30,6 +30,6 @@ module.exports = {
     'media-feature-range-operator-space-after': 'always',
 
     // Require a single space or disallow whitespace before the range operator in media features.
-    'media-feature-range-operator-space-before': 'always',
+    'media-feature-range-operator-space-before': 'always'
   }
 };

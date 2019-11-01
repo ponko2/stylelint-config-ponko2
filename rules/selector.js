@@ -23,9 +23,9 @@ module.exports = {
     // Specify a pattern for class selectors.
     'selector-class-pattern': [
       '^[a-z][a-z0-9]*(?:-[a-z0-9]+)*' +
-      '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
-      '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
-      {resolveNestedSelectors: true},
+        '(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*)?' +
+        '(?:--[a-z][a-z0-9]*(?:-[a-z0-9]+)*){0,2}$',
+      { resolveNestedSelectors: true }
     ],
 
     // Require a single space or disallow whitespace after the combinators of selectors.
@@ -53,22 +53,22 @@ module.exports = {
     'selector-max-combinators': null,
 
     // Limit the number of compound selectors in a selector.
-    'selector-max-compound-selectors': [6, {severity: 'warning'}],
+    'selector-max-compound-selectors': [6, { severity: 'warning' }],
 
     // Limit the number of adjacent empty lines within selectors.
     'selector-max-empty-lines': 0,
 
     // Limit the number of id selectors in a selector.
-    'selector-max-id': [0, {severity: 'warning'}],
+    'selector-max-id': [0, { severity: 'warning' }],
 
     // Limit the specificity of selectors.
-    'selector-max-specificity': ['0,4,1', {severity: 'warning'}],
+    'selector-max-specificity': ['0,4,1', { severity: 'warning' }],
 
     // Limit the number of type in a selector.
-    'selector-max-type': [0, {severity: 'warning', ignore: ['descendant']}],
+    'selector-max-type': [0, { severity: 'warning', ignore: ['descendant'] }],
 
     // Limit the number of universal selectors in a selector.
-    'selector-max-universal': [0, {severity: 'warning'}],
+    'selector-max-universal': [0, { severity: 'warning' }],
 
     // Specify a pattern for the selectors of rules nested within rules.
     'selector-nested-pattern': null,
@@ -107,6 +107,6 @@ module.exports = {
     'selector-type-case': 'lower',
 
     // Disallow unknown type selectors.
-    'selector-type-no-unknown': true,
+    'selector-type-no-unknown': true
   }
 };

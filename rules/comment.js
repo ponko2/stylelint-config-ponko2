@@ -4,9 +4,10 @@ module.exports = {
   rules: {
     // Require or disallow an empty line before comments.
     'comment-empty-line-before': [
-      'always', {
+      'always',
+      {
         except: ['first-nested'],
-        ignore: ['after-comment', 'stylelint-commands'],
+        ignore: ['after-comment', 'stylelint-commands']
       }
     ],
 
@@ -17,6 +18,6 @@ module.exports = {
     'comment-whitespace-inside': 'always',
 
     // Specify a blacklist of disallowed words within comments.
-    'comment-word-blacklist': null,
+    'comment-word-blacklist': null
   }
 };

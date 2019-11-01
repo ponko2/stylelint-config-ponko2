@@ -15,6 +15,6 @@ module.exports = {
     'property-no-vendor-prefix': true,
 
     // Specify a whitelist of allowed properties.
-    'property-whitelist': null,
+    'property-whitelist': null
   }
 };

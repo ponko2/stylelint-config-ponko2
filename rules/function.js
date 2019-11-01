@@ -51,6 +51,6 @@ module.exports = {
     'function-whitelist': null,
 
     // Require or disallow whitespace after functions.
-    'function-whitespace-after': 'always',
+    'function-whitespace-after': 'always'
   }
 };

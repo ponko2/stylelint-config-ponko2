@@ -6,6 +6,6 @@ module.exports = {
     'value-keyword-case': 'lower',
 
     // Disallow vendor prefixes for values.
-    'value-no-vendor-prefix': true,
+    'value-no-vendor-prefix': true
   }
 };

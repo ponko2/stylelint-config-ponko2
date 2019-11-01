@@ -30,6 +30,6 @@ module.exports = {
     'block-opening-brace-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the opening brace of blocks.
-    'block-opening-brace-space-before': 'always',
+    'block-opening-brace-space-before': 'always'
   }
 };

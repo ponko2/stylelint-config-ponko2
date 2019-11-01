@@ -12,6 +12,6 @@ module.exports = {
     'unit-no-unknown': true,
 
     // Specify a whitelist of allowed units.
-    'unit-whitelist': null,
+    'unit-whitelist': null
   }
 };

@@ -3,11 +3,16 @@
 module.exports = {
   rules: {
     // Disallow duplicate properties within declaration blocks.
-    'declaration-block-no-duplicate-properties':
-      [true, {ignore: ['consecutive-duplicates-with-different-values']}],
+    'declaration-block-no-duplicate-properties': [
+      true,
+      { ignore: ['consecutive-duplicates-with-different-values'] }
+    ],
 
     // Disallow longhand properties that can be combined into one shorthand property.
-    'declaration-block-no-redundant-longhand-properties': [true, {severity: 'warning'}],
+    'declaration-block-no-redundant-longhand-properties': [
+      true,
+      { severity: 'warning' }
+    ],
 
     // Disallow shorthand properties that override related longhand properties within declaration blocks.
     'declaration-block-no-shorthand-property-overrides': true,
@@ -28,6 +33,6 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
 
     // Require or disallow a trailing semicolon within declaration blocks.
-    'declaration-block-trailing-semicolon': 'always',
+    'declaration-block-trailing-semicolon': 'always'
   }
 };

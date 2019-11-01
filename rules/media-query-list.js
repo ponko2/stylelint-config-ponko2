@@ -12,6 +12,6 @@ module.exports = {
     'media-query-list-comma-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the commas of media query lists.
-    'media-query-list-comma-space-before': 'never',
+    'media-query-list-comma-space-before': 'never'
   }
 };

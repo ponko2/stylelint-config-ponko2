@@ -19,14 +19,15 @@ module.exports = {
 
     // Require or disallow an empty line before declarations.
     'declaration-empty-line-before': [
-      'always', {
+      'always',
+      {
         except: ['after-declaration', 'first-nested'],
-        ignore: ['after-comment', 'inside-single-line-block'],
+        ignore: ['after-comment', 'inside-single-line-block']
       }
     ],
 
     // Disallow !important within declarations.
-    'declaration-no-important': [true, {severity: 'warning'}],
+    'declaration-no-important': [true, { severity: 'warning' }],
 
     // Specify a blacklist of disallowed property and unit pairs within declarations.
     'declaration-property-unit-blacklist': null,
@@ -38,6 +39,6 @@ module.exports = {
     'declaration-property-value-blacklist': null,
 
     // Specify a whitelist of allowed property and value pairs within declarations.
-    'declaration-property-value-whitelist': null,
+    'declaration-property-value-whitelist': null
   }
 };

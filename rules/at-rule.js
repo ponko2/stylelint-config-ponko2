@@ -7,9 +7,10 @@ module.exports = {
 
     // Require or disallow an empty line before at-rules.
     'at-rule-empty-line-before': [
-      'always', {
+      'always',
+      {
         except: ['blockless-after-same-name-blockless', 'first-nested'],
-        ignore: ['after-comment'],
+        ignore: ['after-comment']
       }
     ],
 
@@ -35,6 +36,6 @@ module.exports = {
     'at-rule-semicolon-space-before': 'never',
 
     // Specify a whitelist of allowed at-rules.
-    'at-rule-whitelist': null,
+    'at-rule-whitelist': null
   }
 };

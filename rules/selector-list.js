@@ -12,6 +12,6 @@ module.exports = {
     'selector-list-comma-space-after': null,
 
     // Require a single space or disallow whitespace before the commas of selector lists.
-    'selector-list-comma-space-before': 'never',
+    'selector-list-comma-space-before': 'never'
   }
 };

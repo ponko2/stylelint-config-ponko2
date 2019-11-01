@@ -3,19 +3,20 @@
 module.exports = {
   rules: {
     // Specify indentation.
-    'indentation': 2,
+    indentation: 2,
 
     // Limit the number of adjacent empty lines.
-    'max-empty-lines': [2, {ignore: ['comments']}],
+    'max-empty-lines': [2, { ignore: ['comments'] }],
 
     // Limit the length of a line.
     'max-line-length': null,
 
     // Limit the depth of nesting.
     'max-nesting-depth': [
-      6, {
+      6,
+      {
         severity: 'warning',
-        ignore: ['blockless-at-rules'],
+        ignore: ['blockless-at-rules']
       }
     ],
 
@@ -41,6 +42,6 @@ module.exports = {
     'no-missing-end-of-source-newline': true,
 
     // Disallow unknown animations.
-    'no-unknown-animations': true,
+    'no-unknown-animations': true
   }
 };

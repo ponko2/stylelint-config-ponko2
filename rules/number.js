@@ -9,6 +9,6 @@ module.exports = {
     'number-max-precision': 10,
 
     // Disallow trailing zeros in numbers.
-    'number-no-trailing-zeros': true,
+    'number-no-trailing-zeros': true
   }
 };
